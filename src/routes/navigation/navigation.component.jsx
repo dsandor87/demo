@@ -7,8 +7,10 @@ import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component
 import { UserContext } from "../../contexts/user.context";
 import { CartContext } from "../../contexts/cart.context";
 
-import { ReactComponent as CrwnLogo } from "../../assets/crown.svg";
+import { ReactComponent as CrwnLogo } from "../../assets/logo.svg";
 import { signOutUser } from "../../utils/firebase/firebase.utils";
+import Lottie from "react-lottie";
+import animationData from "./lotties/12";
 
 import {
   NavigationContainer,
@@ -21,11 +23,26 @@ const Navigation = () => {
   const { currentUser } = useContext(UserContext);
   const { isCartOpen } = useContext(CartContext);
 
+  const defaultOptions = {
+    loop: false,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      // preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <Fragment>
       <NavigationContainer>
         <LogoContainer to="/">
-          <CrwnLogo />
+          <Lottie
+            to="/"
+            style={{ margin: "0px" }}
+            options={defaultOptions}
+            height={100}
+            width={300}
+          />
         </LogoContainer>
         <NavLinks>
           <NavLink to="/shop">SHOP</NavLink>

@@ -6,31 +6,36 @@ const categories = [
   {
     id: 1,
     title: "soups",
-    imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+    imageUrl:
+      "https://hellosubscription.com/wp-content/uploads/2021/01/image_5ff45b34dfa20.png?quality=100",
     route: "shop/soups",
   },
   {
     id: 2,
     title: "starters & appetisers",
-    imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+    imageUrl:
+      "https://images-gmi-pmc.edge-generalmills.com/fca4b25f-5859-4048-974c-4ef02a0014ee.jpg",
     route: "shop/starters & appetisers",
   },
   {
     id: 3,
     title: "main",
-    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    imageUrl:
+      "https://i.swncdn.com/media/800w/cms/CW/28282-thanksgiving-meal-feast-dinner.1200w.tn.webp",
     route: "shop/main",
   },
   {
     id: 4,
     title: "salads",
-    imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+    imageUrl:
+      "https://www.gatherandfeast.com/sites/gatherandfeast/files/styles/slider/public/images/posts/01-nectarine-roasted-walnut-salad-title.jpg?itok=Bu0UbiPO",
     route: "shop/salads",
   },
   {
     id: 5,
     title: "desserts",
-    imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+    imageUrl:
+      "https://www.choice.com.au/-/media/e9d5085fe5bd4af48eb25b77b647fc63.ashx",
     route: "shop/desserts",
   },
 ];
