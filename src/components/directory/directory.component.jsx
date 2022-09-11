@@ -5,21 +5,21 @@ import { DirectoryContainer } from "./directory.styles";
 const categories = [
   {
     id: 1,
-    title: "hats",
+    title: "soups",
     imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
-    route: "shop/hats",
+    route: "shop/soups",
   },
   {
     id: 2,
-    title: "jackets",
+    title: "starters & appetisers",
     imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
-    route: "shop/jackets",
+    route: "shop/starters & appetisers",
   },
   {
     id: 3,
-    title: "sneakers",
+    title: "main",
     imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
-    route: "shop/sneakers",
+    route: "shop/main",
   },
   {
     id: 4,
